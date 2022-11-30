@@ -25,8 +25,8 @@ You can make the following assumptions:
 * There are 26 paychecks in a year
 
 ## System Requirements ##
-[.NET CORE Runtime or SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
-[Visual Studio 2022](https://visualstudio.microsoft.com/vs/whatsnew/)
+* [.NET CORE Runtime or SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/whatsnew/)
 
 ## Run Application ##
 1. Clone this repository or download the zip file to your local computer.
