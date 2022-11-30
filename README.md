@@ -24,12 +24,11 @@ You can make the following assumptions:
 * All employees are paid $2000 per paycheck before deductions
 * There are 26 paychecks in a year
 
-
-**System Requirements:**
+## System Requirements ##
 [.NET CORE Runtime or SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 [Visual Studio 2022](https://visualstudio.microsoft.com/vs/whatsnew/)
 
-**Run Application**
+## Run Application ##
 1. Clone this repository or download the zip file to your local computer.
 2. Open the Solution from Visual Studio or double click from the folder.
 3. Build the Solution using build menu in Visual Studio.
