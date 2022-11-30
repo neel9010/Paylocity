@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{05C8BC55-3AC5-4095-9992-C05E9C4E2D36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{86193FF1-721E-4C16-9B6F-3FC87FD0A918}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{27F8F304-A0CF-4D84-B665-9D889C4554A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{11E8942B-0E2E-4AF6-A096-2787C0F95E5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paylocity.Data", "Paylocity.Data\Paylocity.Data.csproj", "{D43DB934-CE10-4DF7-B3A6-259E0F8EE39C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paylocity.Domain", "Paylocity.Domain\Paylocity.Domain.csproj", "{540F7F12-EF40-4B6B-BD2C-5059006C7BB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paylocity.Services", "Paylocity.Services\Paylocity.Services.csproj", "{8BDFB46F-FB2E-4A34-BA43-45BCE9515C82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paylocity.Services.UnitTests", "Paylocity.Services.UnitTests\Paylocity.Services.UnitTests.csproj", "{FBFDF002-FFFA-417F-B54F-8DAD6DAC00D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paylocity.Api", "Paylocity.Api\Paylocity.Api.csproj", "{22C0DD59-4B6C-46A3-A23F-ACCF43955313}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F92E48B2-F2CC-4E39-B493-326E10CCF9A7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D43DB934-CE10-4DF7-B3A6-259E0F8EE39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43DB934-CE10-4DF7-B3A6-259E0F8EE39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43DB934-CE10-4DF7-B3A6-259E0F8EE39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43DB934-CE10-4DF7-B3A6-259E0F8EE39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540F7F12-EF40-4B6B-BD2C-5059006C7BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F7F12-EF40-4B6B-BD2C-5059006C7BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540F7F12-EF40-4B6B-BD2C-5059006C7BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540F7F12-EF40-4B6B-BD2C-5059006C7BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDFB46F-FB2E-4A34-BA43-45BCE9515C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDFB46F-FB2E-4A34-BA43-45BCE9515C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDFB46F-FB2E-4A34-BA43-45BCE9515C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDFB46F-FB2E-4A34-BA43-45BCE9515C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFDF002-FFFA-417F-B54F-8DAD6DAC00D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFDF002-FFFA-417F-B54F-8DAD6DAC00D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFDF002-FFFA-417F-B54F-8DAD6DAC00D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFDF002-FFFA-417F-B54F-8DAD6DAC00D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C0DD59-4B6C-46A3-A23F-ACCF43955313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C0DD59-4B6C-46A3-A23F-ACCF43955313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C0DD59-4B6C-46A3-A23F-ACCF43955313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C0DD59-4B6C-46A3-A23F-ACCF43955313}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D43DB934-CE10-4DF7-B3A6-259E0F8EE39C} = {86193FF1-721E-4C16-9B6F-3FC87FD0A918}
+		{540F7F12-EF40-4B6B-BD2C-5059006C7BB4} = {11E8942B-0E2E-4AF6-A096-2787C0F95E5E}
+		{8BDFB46F-FB2E-4A34-BA43-45BCE9515C82} = {27F8F304-A0CF-4D84-B665-9D889C4554A1}
+		{FBFDF002-FFFA-417F-B54F-8DAD6DAC00D8} = {27F8F304-A0CF-4D84-B665-9D889C4554A1}
+		{22C0DD59-4B6C-46A3-A23F-ACCF43955313} = {05C8BC55-3AC5-4095-9992-C05E9C4E2D36}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC8F163E-E950-402C-A49E-CE541BAC703F}
+	EndGlobalSection
+EndGlobal
